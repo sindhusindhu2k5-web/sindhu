@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Kulli! 🎉</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="custom-cursor" id="cursor"></div>
+
+    <div class="floating-shapes">
+        <div class="shape" style="font-size: 100px;">🎈</div>
+        <div class="shape" style="font-size: 80px;">✨</div>
+        <div class="shape" style="font-size: 90px;">🎉</div>
+    </div>
+
+    <div class="intro-screen" id="introScreen">
+        <div class="intro-content">
+            <div class="intro-text">Get Ready for Something Special is waiting for u ...</div>
+            <button class="start-btn" id="startBtn">Enter 🎉</button>
+        </div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+    <div class="content-wrapper" id="mainContent" style="display: none;">
+        <div class="main-title">
+            <div class="birthday-text">Happy Birthday</div>
+            <div class="name-container">
+                <div class="name-main">Chotuu</div>
+            </div>
+        </div>
+
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🎂</div>
+                <div class="feature-title">Celebrate Life</div>
+                <div class="feature-text">Another year of memories, growth, and achievements. Here's to a great new year!</div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">💫</div>
+                <div class="feature-title">Shine Brighter</div>
+                <div class="feature-text">Your energy lights up every room. Keep shining always!</div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🎁</div>
+                <div class="feature-title">Dreams Await</div>
+                <div class="feature-text">May all your wishes come true and dreams become reality.</div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🌟</div>
+                <div class="feature-title">Make Magic</div>
+                <div class="feature-text">Create unforgettable moments filled with joy and happiness!</div>
+            </div>
+        </div>
+
+        <div class="celebration-zone">
+            <button class="mega-button" id="celebrateBtn">
+                <span>🎊 Celebrate Now 🎊</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content">
+            <div class="modal-title">💝 For You, Kulli 💝</div>
+            <div class="modal-message">
+               Happy Birthday, Chotu! 🎂✨ On this special day, I just want to tell you how grateful I am to have you in my life 🤗💛. You’re not just my best friend—you’re the person who understands me, supports me, and stands by me no matter what 🤝❤️. Thank you for all the laughter 😂, crazy memories 🤪, and countless moments that made life brighter ✨. I hope this year brings you all the happiness 😊, success 🏆, and love ❤️ you truly deserve. Stay the same amazing, caring, and fun person you are 🌟. Enjoy your day to the fullest, Chotu—you mean a lot to me! 🎉🎈💛🥳
+            </div>
+            <button class="close-modal-btn" id="closeModalBtn">Thank You! 💕</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
